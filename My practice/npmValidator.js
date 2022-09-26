@@ -1,0 +1,10 @@
+const validator=require('validator')
+
+const a=validator.isEmail('Mani.ddoxgmail.com')
+console.log(a)
+const b=validator.isEmpty('vjhrogj')
+console.log(b)
+const c=validator.isFloat('1.0')
+console.log(c)
+const d=validator.isURL('https://nodejs')
+console.log(d)
